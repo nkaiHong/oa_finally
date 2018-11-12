@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.panel-heading .close
+{
+	opacity: 1;
+}
+.panel-heading .btn
+{
+	margin-top: -7px;
+}
+.panel-body
+{
+	padding-bottom: 0px;
+}
+.table
+{
+	margin-bottom: 0px;
+}
+.table nav
+{
+	margin-bottom: 0px;
+}
+.table nav ul
+{
+	margin-bottom: 0px;
+}
+.roles{
+	border: 1px solid #eee;
+	height: 135px;
+	overflow-y: scroll; 
+}
+.roles ul{
+	padding-inline-start: 5px;
+}
+.roles li{
+	list-style: none; 
+}
+.role:hover {
+	background-color:#aaa; 
+	cursor: pointer;
+}
+.role-form {
+	border-left: 1px solid #faa;
+	padding-bottom: 10px;
+}
+.role{
+	padding-right: 0px;
+}
+.remove-btn{
+	background-color: pink;
+	border: 1px solid red; 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.tree-container {
+	height: 400px;
+	overflow: auto;
+	border-right: 1px solid #ddd;
+}
+.ztree li span.button.add {
+	margin-left:2px; 
+	margin-right: -1px; 
+	background-position:-144px 0; 
+	vertical-align:top; 
+	*vertical-align:middle
+	}
